@@ -1,20 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Blogs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgfooter-logo.1f4e4376.svg" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Kuja Kuja Meet-the-team Storage-db</title>
 </head>
 
 <body>
-
+    <!-- the nav bar -->
+    <nav class="navbar">
+        <div class="brand-logo">
+            <a href="https://alight.kujakuja.com/" target="_blank"><img src="img/footer-logo.1f4e4376.svg" style="width:80px" ;></a>
+        </div><a href="#" class="toggle-button"><span class="bar"></span><span class="bar"></span><span
+                        class="bar"></span></a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://kujakuja.com/">About</a></li>
+                <li><a href="#">Admin</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="container mt-2">
+
         <div class="card">
             <div class="card-body">
                 <form id="post-form">
-                    <center>
-                        <h3>Make A Blog</h3>
-                    </center>
-                    <textarea id="post" class="form-control" placeholder="What's on your mind..."></textarea>
+
+                    <h3>Upload a new member image</h3>
+
+                    <textarea id="post" class="form-control" placeholder=" Enter team member name..."></textarea>
                     <input type="file" class="form-control" id="image" accept="images/*">
                     <div class="text-center">
                         <button type="button" class="btn btn-success" onclick="upload()">Upload</button>
@@ -30,12 +49,15 @@
 
     </div>
 
-
-
-
-
-
-
+    <!-- FOOTER START -->
+    <footer class="foo">
+        <div class="low-logo "><img src="img/footer-logo.1f4e4376.svg"></div>
+        <div class="social-list "><a href="https://www.instagram.com/kujakujaglobal/" target="_blank"><i
+                    class="fab fa-instagram "></i></a><a href="https://www.facebook.com/KujaKujaGlobal" target="_blank"><i class="fab fa-facebook-f "></i></a><a href="https://twitter.com/kujakujaglobal" target="_blank"><i class="fab fa-twitter "></i></a>
+            <a href="https://medium.com/@KujaKujaGlobal" target="_blank"><i class="fab fa-medium "></i></a>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
 
 
     <!-- The core Firebase JS SDK is always required and must be listed first...make sure you remove -app from below line -->
